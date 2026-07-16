@@ -7,7 +7,7 @@ font-family:'Poppins',sans-serif;
 
 body{
 height:100vh;
-overflow:hidden;
+overflow:visible;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -81,12 +81,12 @@ padding:22px;
 overflow-y:auto;
 transform:translateY(105%);
 transition:1.2s;
-z-index:2;
+z-index:10;
 box-shadow:0 10px 30px rgba(0,0,0,.35);
 }
 
 .envelope.open .letter{
-transform:translateY(-170px);
+transform:translateY(-260px);
 }
 
 .letter h1{
